@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Suisse BP Neue';
+    src: url('SuisseBPNeue-Medium.eot');
+    src: url('SuisseBPNeue-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SuisseBPNeue-Medium.woff2') format('woff2'),
+        url('SuisseBPNeue-Medium.woff') format('woff'),
+        url('SuisseBPNeue-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse BP Neue';
+    src: url('SuisseBPNeue-Regular.eot');
+    src: url('SuisseBPNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SuisseBPNeue-Regular.woff2') format('woff2'),
+        url('SuisseBPNeue-Regular.woff') format('woff'),
+        url('SuisseBPNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse BP Neue';
+    src: url('SuisseBPNeue-Light.eot');
+    src: url('SuisseBPNeue-Light.eot?#iefix') format('embedded-opentype'),
+        url('SuisseBPNeue-Light.woff2') format('woff2'),
+        url('SuisseBPNeue-Light.woff') format('woff'),
+        url('SuisseBPNeue-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
