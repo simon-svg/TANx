@@ -1,0 +1,206 @@
+@media screen and (max-width: 1670px) {
+    .header-footer__wrapper{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .header__burgerMenu{
+        display: flex !important;
+    }
+    .header__list{
+        display: none !important;
+    }
+    .header__phone_list{
+        display: flex !important;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -100px);
+        -webkit-transform: translate(-50%, -100px);
+        -moz-transform: translate(-50%, -100px);
+        -ms-transform: translate(-50%, -100px);
+        -o-transform: translate(-50%, -100px);
+        transition: transform ease .5s;
+        -webkit-transition: transform ease .5s;
+        -moz-transition: transform ease .5s;
+        -ms-transition: transform ease .5s;
+        -o-transition: transform ease .5s;
+    }
+}
+@media screen and (max-width: 830px) {
+    .toaster__date_roatete{
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+        left: 0;
+        top: -40px;
+    }
+    .comments__semperfy_name{
+        line-height: 1.4;
+    }
+}
+@media screen and (max-width: 750px) {
+    .wrapper{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .footer__cont{
+        flex-direction: column;
+    }
+    .footer__icons,
+    .footer__totop{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .comments__semperfy{
+        flex-direction: column;
+        align-items: center;
+    }
+    .comments__semperfy_inside{
+        margin-left: 0;
+    }
+    .comments__semperfy_inside{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .comments__semperfy_par{
+        text-align: center;
+    }
+    .comments__semperfy_date {
+        justify-content: space-between;
+    }
+
+    .home__bot_title,
+    .home__title,
+    .minimalist__title{
+        font-size: 40px;
+    }
+    .home__bot_subtitle,
+    .home__subtitle{
+        font-size: 20px;
+    }
+    .toaster__date_roatete,
+    .toaster__par{
+        font-size: 18px;
+    }
+    .toaster__date_roatete{
+        top: -35px;
+    }
+    .toaster__inside,
+    .toaster__bot,
+    .minimalist__inside,
+    .toaster__share,
+    .minimalist__filter,
+    .comments__semperfy,
+    .form__cont{
+        margin-top: 50px;
+    }
+    .minimalist__bot_line{
+        margin: 50px 0;
+    }
+    .toaster,
+    .form,
+    .footer{
+        padding: 50px 0;
+    }
+    .toaster__par_full {
+        margin-top: 30px;
+    }
+    .minimalist__posts_title{
+        margin-top: 0;
+    }
+    .comments{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .minimalist__posts{
+        flex-direction: column;
+    }
+    .minimalist__posts_prev,
+    .minimalist__posts_prev {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-top: 15px;
+    }
+    .minimalist__posts_prev:first-child{
+        margin-top: 0;
+    }
+    .minimalist__posts_subtitle {
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .comments__semperfy_date {
+        flex-direction: column;
+    }
+    .comments__reply{
+        margin: 10px 0 0 0 !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .home__bot_title,
+    .home__title,
+    .minimalist__title{
+        font-size: 30px;
+    }
+    .home__bot_subtitle,
+    .home__subtitle{
+        font-size: 16px;
+    }
+    .toaster__date_roatete,
+    .toaster__par{
+        font-size: 14px;
+    }
+    .home__bot_subtitle,
+    .home__subtitle{
+        margin-top: 10px;
+    }
+    .toaster__par_full {
+        margin-top: 20px;
+    }
+    .toaster__date_roatete{
+        top: -24px;
+    }
+    .toaster__inside,
+    .toaster__bot,
+    .minimalist__inside,
+    .toaster__share,
+    .minimalist__filter,
+    .comments__semperfy,
+    .form__cont{
+        margin-top: 30px;
+    }
+    .minimalist__bot_line{
+        margin: 30px 0;
+    }
+    .toaster,
+    .form,
+    .footer{
+        padding: 30px 0;
+    }
+    .toaster__par_full,
+    .minimalist__tags {
+        margin-top: 20px;
+    }
+    .comments{
+        padding-top: 30px;
+    }
+    .minimalist__filter {
+        flex-direction: column;
+    }
+    .minimalist__category,
+    .minimalist__tags{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .minimalist__filter_list {
+        margin-top: 5px;
+    }
+}

@@ -15,11 +15,27 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="header-footer__wrapper">
             <div class="header__cont d-flex justify-content-between align-items-center">
-                <nav class="header__nav">
+                <div class="header__burgerMenu d-flex flex-column justify-content-between">
+                    <span class="header__burgerMenu_line"></span>
+                    <span class="header__burgerMenu_line"></span>
+                    <span class="header__burgerMenu_line"></span>
+                </div>
+                <nav class="header__nav d-flex align-items-center">
                     <ul class="header__list d-flex justify-content-between align-items-center">
+                        <li class="header__item">
+                            <a class="header__link" href="#">blog</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">writer</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">contact</a>
+                        </li>
+                    </ul>
+                    <ul class="header__phone_list d-flex justify-content-between align-items-center">
                         <li class="header__item">
                             <a class="header__link" href="#">blog</a>
                         </li>
@@ -54,7 +70,8 @@
                 <div class="home__cont">
                     <div class="home__top d-flex flex-column align-items-center">
                         <h1 class="home__title"><span class="home__title_dot">.</span>tan<sup>x</sup></h1>
-                        <h2 class="home__subtitle">Yet another <span class="home__subtitle_minimal">Minimalist</span> blog</h2>
+                        <h2 class="home__subtitle">Yet another <span class="underline black">Minimalist</span>
+                            blog</h2>
                     </div>
                     <div class="home__bot d-flex flex-column align-items-center">
                         <h2 class="home__bot_title">muji toaster</h2>
@@ -63,7 +80,175 @@
                 </div>
             </div>
         </section>
+        <div class="wrapper">
+            <section class="toaster">
+                <div class="toaster__cont">
+                    <span class="toaster__date_roatete">July 29, 2015</span>
+                    <div class="toaster__top">
+                        <img class="toaster__img" src="assets/media/img/mujiToaster.png" alt="mujiToaster">
+                    </div>
+                    <div class="toaster__inside">
+                        <p class="toaster__par">
+                            The great <span class="underline">Naoto Fuka­sawa</span> has designed a series of kitchen
+                            appli­ances for <span class="underline">Muji</span>, that are now avail­able in the US, and
+                            will be in the UK in the fall.
+                            The entire col­lec­tion is super min­i­mal and func­tional, but I’m in love with the
+                            toaster. Def­i­nitely going to replace my cur­rent toaster.
+                        </p>
+                        <p class="toaster__par_full toaster__par">
+                            Muji has had a <span class="black">full line of kitchen appli­ances avail­able</span> for a
+                            while in Japan, and it seems like <span class="underline underline-red">they’re going to
+                                start bring­ing more of the</span> prod­ucts to the US and Europe. Good news for us.
+                        </p>
+                    </div>
+                    <div class="toaster__bot">
+                        <img class="toaster__img" src="assets/media/img/tosterTop.png" alt="mujiToaster">
+                    </div>
+                </div>
+            </section>
+            <section class="minimalist">
+                <div class="minimalist__cont">
+                    <div class="minimalist__top">
+                        <h2 class="minimalist__title">I am a minimalist. I like saying
+                            the most with the least.</h2>
+                        <h3 class="minimalist__subtitle d-flex align-items-center"><span
+                                class="minimalist__subtitle_before"></span> bob newhart</h3>
+                    </div>
+                    <div class="minimalist__inside">
+                        <p class="toaster__par">
+                            The great <span class="underline">Naoto Fuka­sawa</span> has designed a series of kitchen
+                            appli­ances for <span class="underline">Muji</span>, that are now avail­able in the US, and
+                            will be in the UK in the fall.
+                            The entire col­lec­tion is super min­i­mal and func­tional, but I’m in love with the
+                            toaster. Def­i­nitely going to replace my cur­rent toaster.
+                        </p>
+                        <h3 class="toaster__share black underline underline-red">Share this story</h3>
+                    </div>
+                    <div class="minimalist__filter d-flex justify-content-between align-items-center">
+                        <div class="minimalist__category">
+                            <h3 class="minimalist__filter_title">category</h3>
+                            <ul class="minimalist__filter_list d-flex">
+                                <li class="minimalist__filter_item">
+                                    <a class="minimalist__filter_link underline" href="#">industrial design</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="minimalist__tags">
+                            <h3 class="minimalist__filter_title">tags</h3>
+                            <ul class="minimalist__filter_list d-flex">
+                                <li class="minimalist__filter_item">
+                                    <a class="minimalist__filter_link underline" href="#">japan</a>
+                                </li>
+                                <li class="minimalist__filter_item">
+                                    <a class="minimalist__filter_link underline" href="#">minimal</a>
+                                </li>
+                                <li class="minimalist__filter_item">
+                                    <a class="minimalist__filter_link underline" href="#">product</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="minimalist__bot_line">
+                        <hr class="minimalist__line">
+                    </div>
+                    <div class="minimalist__posts d-flex justify-content-between align-items-center">
+                        <div class="minimalist__posts_prev">
+                            <h3 class="minimalist__posts_title">previous post</h3>
+                            <h4 class="minimalist__posts_subtitle black underline">atlas future - brand</h4>
+                        </div>
+                        <div class="minimalist__posts_prev d-flex flex-column align-items-end">
+                            <h3 class="minimalist__posts_title">next post</h3>
+                            <h4 class="minimalist__posts_subtitle black underline">Ditch the Printouts, Prototype
+                                Instead</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="comments">
+                <div class="comments__cont">
+                    <div class="comments__top">
+                        <h3 class="comments__title">
+                            <span class="comments__count">2</span> comments
+                        </h3>
+                    </div>
+                    <div class="comments__semperfy d-flex justify-content-between">
+                        <div class="comments__semperfy_img">
+                            <img class="comments__semperfy_icon" src="assets/media/img/semperfy.png" alt="semperfy">
+                        </div>
+                        <div class="comments__semperfy_inside">
+                            <p class="comments__semperfy_par">Hi, this is a comment. To delete a comment, just log in
+                                and view the post's comments. There you will have the option to edit or delete them.</p>
+                            <div class="comments__semperfy_date d-flex align-items-center">
+                                <h4 class="comments__semperfy_name"><span class="underline">Semperfy</span> on: July 29,
+                                    2015 at 8:35 pm</h4>
+                                <span class="comments__reply black underline ml-4">Reply</span>
+                            </div>
+                            <hr class="comments__line">
+                            <div class="comments__semperfy d-flex justify-content-between">
+                                <div class="comments__semperfy_img">
+                                    <img class="comments__semperfy_icon" src="assets/media/img/tony.png" alt="tony">
+                                </div>
+                                <div class="comments__semperfy_inside">
+                                    <p class="comments__semperfy_par">Hi, this is a reply on comment. You will have the
+                                        option to edit or delete this reply.</p>
+                                    <div class="comments__semperfy_date d-flex align-items-center">
+                                        <h4 class="comments__semperfy_name"><span class="underline">tony jones</span>
+                                            replied on: July 29, 2015 at 10:14 pm</h4>
+                                        <span class="comments__reply black underline ml-4">Reply</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="form">
+                <div class="form__top">
+                    <h3 class="form__title">Leave a comment</h3>
+                </div>
+                <form class="form__cont" action="#">
+                    <div class="form__inside d-flex justify-content-between flex-wrap">
+                        <div class="form__inside_name">
+                            <input class="form__inside_input" type="text"></input>
+                            <label class="form__label">Name</label>
+                        </div>
+                        <div class="form__inside_email">
+                            <input class="form__inside_input" type="email"></input>
+                            <label class="form__label">Email</label>
+                        </div>
+                        <div class="form__inside_message_all">
+                            <textarea class="form__inside_input form__inside_message" type="text"></textarea>
+                            <label class="form__label form__label_message">Message</label>
+                        </div>
+                    </div>
+                    <button class="form__btn black underline">post comment</button>
+                </form>
+            </section>
+        </div>
     </main>
+    <footer class="footer">
+        <div class="header-footer__wrapper">
+            <div class="footer__cont d-flex justify-content-between align-items-center">
+                <div class="footer__inside">
+                    <h3 class="footer__inside_info">© 2015 <span class="black"><span class="footer__dot">.</span>tan <sup>x</sup></span>  |  All rights reserved.</h3>
+                </div>
+                <div class="footer__icons d-flex align-items-center">
+                    <div class="footer__item">
+                        <img class="footer__icon" src="assets/media/icons/f.png" alt="facebook">
+                    </div>
+                    <div class="footer__item">
+                        <img class="footer__icon" src="assets/media/icons/t.png" alt="twitter">
+                    </div>
+                    <div class="footer__item">
+                        <img class="footer__icon" src="assets/media/icons/l.png" alt="linkedin">
+                    </div>
+                </div>
+                <div class="footer__totop">
+                    <a class="footer__link black" href="#header">Back to top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="assets/js/main.js"></script>

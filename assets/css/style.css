@@ -1,14 +1,18 @@
 html, body{
     font-family: "Myriad Pro", sans-serif;
+    box-sizing: border-box;
+    line-height: 1;
+    scroll-behavior: smooth;
 }
 ul{
     list-style-type: none;
+    padding: 0;
 }
 a{
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, ul{
     margin: 0;
     line-height: 1;
 }
@@ -116,6 +120,20 @@ header
     height: 2px;
     background-color: #9fa0a0;
 }
+.header__burgerMenu{
+    width: 25px;
+    height: 20px;
+    display: none !important;
+}
+.header__burgerMenu_line{
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background-color: #9fa0a0;
+}
+.header__phone_list{
+    display: none !important;
+}
 
 /* 
 home 
@@ -132,7 +150,7 @@ home
 .home__title{
     font-size: 60px;
     font-weight: 500;
-    color: black;
+    color: #000000;
 }
 .home__title_dot{
     color: #f44336;
@@ -143,14 +161,19 @@ home
     color: #9fa0a0;
     margin-top: 15px;
 }
-.home__subtitle_minimal{
-    color: #000000;
+.underline{
+    color: #9fa0a0;
     font-weight: 500;
     font-family: 'Suisse BP Neue', sans-serif;
-    padding-bottom: 7px;
+    padding-bottom: 3px;
     position: relative;
+    cursor: pointer;
 }
-.home__subtitle_minimal::after{
+.black{
+    color: #000000;
+    font-weight: 500;
+}
+.underline::after{
     position: absolute;
     content: "";
     bottom: 0;
@@ -158,6 +181,9 @@ home
     height: 2px;
     width: 100%;
     background-color: #9fa0a0;
+}
+.underline-red::after{
+    background-color: #f44336;
 }
 .home__bot{
     margin-top: 140px;
@@ -175,4 +201,270 @@ home
     font-weight: 300;
     color: #9fa0a0;
     font-family: 'Suisse BP Neue', sans-serif;
+    text-align: center;
+}
+
+/* 
+toaster 
+*/
+
+.toaster{
+    padding: 100px 0;
+}
+.toaster__cont{
+    position: relative;
+    width: 100%;
+}
+.toaster__date_roatete{
+    color: #9fa0a0;
+    position: absolute;
+    left: -105px;
+    top: 45px;
+    font-family: 'Suisse BP Neue', sans-serif;
+    font-size: 22px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.toaster__img{
+    width: 100%;
+    display: block;
+}
+.toaster__inside{
+    margin-top: 100px;
+}
+.toaster__par{
+    color: #9fa0a0;
+    font-family: 'Suisse BP Neue', sans-serif;
+    font-size: 22px;
+    line-height: 1.4;
+}
+.toaster__par_full{
+    margin-top: 50px;
+}
+.toaster__bot{
+    margin-top: 100px;
+}
+
+/* 
+minimalist 
+*/
+
+.minimalist__cont{
+    width: 100%;
+}
+.minimalist__title{
+    font-size: 48px;
+    font-size: bold;
+    color: #000000;
+}
+.minimalist__subtitle{
+    font-family: 'Suisse BP Neue', sans-serif;
+    font-size: 22px;
+    color: #000000;
+    margin-top: 40px;
+}
+.minimalist__subtitle_before{
+    height: 2px;
+    width: 25px;
+    background-color: #f44336;
+    margin-right: 10px;
+}
+.minimalist__inside{
+    margin-top: 100px;
+}
+.toaster__share{
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 100px;
+}
+.minimalist__filter{
+    margin-top: 100px;
+}
+.minimalist__filter_title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.minimalist__filter_list{
+    margin-top: 25px;
+}
+.minimalist__filter_link{
+    color: #9fa0a0;
+}
+.minimalist__filter_link:hover{
+    color: #9fa0a0;
+}
+.minimalist__filter_item{
+    margin-left: 22px;
+}
+.minimalist__filter_item:first-child{
+    margin-left: 0;
+}
+.minimalist__bot_line{
+    margin: 100px 0 50px 0;
+}
+.minimalist__posts_title,
+.minimalist__posts_subtitle{
+    color: #9fa0a0;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.minimalist__posts_subtitle{
+    color: #000000;
+}
+
+/* 
+comments 
+*/
+
+.comments{
+    padding-top: 100px;
+}
+.comments__title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.comments__semperfy{
+    margin-top: 55px;
+}
+.comments__semperfy_img{
+    width: 90px;
+    height: 90px;
+    display: flex;
+}
+.comments__semperfy_icon{
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.comments__semperfy_inside{
+    margin-left: 30px;
+    width: calc(100% - 120px);
+}
+.comments__semperfy_par{
+    color: #000000;
+    font-size: 22px;
+    line-height: 1.4;
+    font-family: 'Suisse BP Neue', sans-serif;
+}
+.comments__semperfy_date{
+    margin-top: 30px;
+}
+.comments__semperfy_name{
+    color: #9fa0a0;
+    font-family: 'Suisse BP Neue', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.comments__line{
+    margin: 60px 0;
+}
+
+/* 
+form 
+*/
+
+.form{
+    padding: 100px 0;
+}
+.form__title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.form__cont{
+    margin-top: 60px;
+}
+.form__inside_name,
+.form__inside_email,
+.form__inside_message_all{
+    position: relative;
+    width: calc(50% - 15px);
+    margin-bottom: 30px;
+}
+.form__inside_input{
+    width: 100%;
+    font-size: 22px;
+    color: #9fa0a0;
+    border: none;
+    border-bottom: 2px solid #9fa0a0;
+    padding: 20px 0;
+    text-transform: capitalize;
+    font-family: 'Suisse BP Neue', sans-serif;
+    outline: none;
+}
+.form__inside_message_all{
+    width: 100%;
+    margin-bottom: 0;
+}
+.form__inside_message{
+    padding: 20px 0 135px 0;
+    resize: none;
+}
+.form__label{
+    color: #9fa0a0;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'Suisse BP Neue', sans-serif;
+    pointer-events: none;
+    transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -ms-transition: all ease .2s;
+    -o-transition: all ease .2s;
+}
+.form__btn{
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+    font-family: 'Suisse BP Neue', sans-serif;
+    text-transform: capitalize;
+    margin-top: 50px;
+    padding: 0;
+    padding-bottom: 5px;
+    outline: none;
+}
+.form__btn:focus{
+    outline: none;
+}
+
+/* 
+footer
+*/
+
+.footer{
+    padding: 75px;
+}
+.footer__cont{
+    width: 100%;
+}
+.footer__inside_info{
+    color: #9fa0a0;
+    font-size: 18px;
+}
+.footer__dot{
+    color: #f44336;
+}
+.footer__item{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.footer__item:first-child{
+    margin: 0;
+}
+.footer__link{
+    font-size: 18px;
+}
+.footer__link:hover{
+    color: #000000;
 }
