@@ -101,25 +101,6 @@ header
     cursor: pointer;
     margin-left: 30px;
 }
-.header__logo{
-    margin-left: 30px;
-    width: 18px;
-    height: 24px;
-    cursor: pointer;
-}
-.header__logo_left{
-    height: 100%;
-    width: 2px;
-    background-color: #9fa0a0;
-}
-.header__logo_right{
-    height: 100%;
-}
-.header__logo_small{
-    width: 10px;
-    height: 2px;
-    background-color: #9fa0a0;
-}
 .header__burgerMenu{
     width: 25px;
     height: 20px;

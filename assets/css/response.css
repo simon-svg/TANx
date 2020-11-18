@@ -141,6 +141,19 @@
     .comments__reply{
         margin: 10px 0 0 0 !important;
     }
+    .minimalist__title,
+    .toaster__par{
+        text-align: center;
+    }
+    .minimalist__inside{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .minimalist__subtitle,
+    .toaster__share {
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 400px) {
     .home__bot_title,
@@ -149,15 +162,25 @@
         font-size: 30px;
     }
     .home__bot_subtitle,
-    .home__subtitle{
+    .home__subtitle,
+    .form__label,
+    .form__inside_input,
+    .comments__semperfy_par,
+    .comments__semperfy_name,
+    .form__title,
+    .form__btn {
         font-size: 16px;
     }
     .toaster__date_roatete,
-    .toaster__par{
+    .toaster__par,
+    .footer__inside_info,
+    .footer__link{
         font-size: 14px;
     }
     .home__bot_subtitle,
-    .home__subtitle{
+    .home__subtitle,
+    .footer__icons,
+    .footer__totop{
         margin-top: 10px;
     }
     .toaster__par_full {
@@ -202,5 +225,15 @@
     }
     .minimalist__filter_list {
         margin-top: 5px;
+    }
+    .form__inside_email,
+    .form__inside_name{
+        margin-bottom: 15px;
+    }
+    .form__inside_message{
+        padding: 20px 0 60px 0;
+    }
+    .header__search_icon{
+        margin-left: 10px;
     }
 }
